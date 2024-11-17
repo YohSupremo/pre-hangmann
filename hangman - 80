@@ -479,7 +479,7 @@ int main() {
 
                         system("cls");
                         header_little(true);
-                        center_padding(" Press 'E' to Return at Main Menu", false);
+                        center_padding (" Press 'E' to Return at Main Menu", false);
                         cout << "\n";
                         play_again();
 
@@ -1708,16 +1708,13 @@ void header_little(bool curtain) {
     cout << " * * *  " << "       *     *   ***  " << "     |                    (_____|                     ) " << "      *     *     ***     * *   " << endl;
     cout << "      " << "          * * *       " << "       +-----------------------------------------------+ " << "        * * *                " << endl;
    
-
     if (curtain == true) {
-        cout << "*                                *                                                  *                                 *       " << endl;
+        cout << "*                                *                                                  *                                *       " << endl;
         cout << "     *                      *                 Guess the Word, Save the Man!              *                      *                   " << endl;
         cout << "          *     **     *                                                                      *     **     *                             " << endl;
-
     } 
        
    
-    
     
 }
 
@@ -1804,9 +1801,6 @@ void play_again() {
     cout << setw(25) << "" << "   __| |______________________________________________________| |__ " << endl;
     cout << setw(25) << "" << "   __   ______________________________________________________   __ " << endl;
     cout << setw(30) << "" << "| |" << setw(54) << "" << "| |" << endl;
-    cout << setw(30) << "" << "| |" << setw(15) << "" << left << setw(39) << "         " << "| |" << endl;
-    cout << setw(30) << "" << "| |" << setw(15) << "" << left << setw(39) << "         " << "| |" << endl;
-    cout << setw(30) << "" << "| |" << setw(15) << "" << left << setw(39) << "          " << "| |" << endl;
     cout << setw(30) << "" << "| |" << setw(15) << "" << left << setw(39) << "      .-------------.  " << "| |" << endl;
     cout << setw(30) << "" << "| |" << setw(15) << "" << left << setw(39) << "     *  Do You Want  *   " << "| |" << endl;
     cout << setw(30) << "" << "| |" << setw(15) << "" << left << setw(39) << " 0  <   Play Again?   | " << "| |" << endl;
